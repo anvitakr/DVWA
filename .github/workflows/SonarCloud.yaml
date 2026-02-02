@@ -29,7 +29,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=anvitakr
-            -Dsonar.projectKey=anvitakr-dvwa
+            -Dsonar.projectKey=anvitakr_DVWA
             -Dsonar.projectName=DVWA
             -Dsonar.sources=.
             -Dsonar.exclusions=**/tests/**,**/docs/**,**/vendor/**,**/*.md
