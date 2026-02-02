@@ -28,7 +28,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=anvitakr
+            -Dsonar.organization=anvitakr-dvwa
             -Dsonar.projectKey=anvitakr_DVWA
             -Dsonar.projectName=DVWA
             -Dsonar.sources=.
